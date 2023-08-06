@@ -5,7 +5,7 @@ from note import Note
 
 
 # noinspection PyBroadException
-class ModelJSON(object):
+class Model_JSON(object):
 
     def __init__(self, filename):
         self.filename = filename

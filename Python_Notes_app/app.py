@@ -2,13 +2,13 @@ import datetime
 from colorama import Fore, Style
 
 from controller import Controller
-from model_JSON import ModelJSON
+from model_JSON import Model_JSON
 from note import Note
 from view import View
 
 
 def run():
-    c = Controller(ModelJSON("notes.json"), View())
+    c = Controller(Model_JSON("notes.json"), View())
 
     while True:
         command = input(Fore.BLUE +
